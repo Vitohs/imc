@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resultado</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
+</head>
+<body>
+    <img class="theme" id="tema" src="pic/black.png" onclick="teste()">
+    <div class="saida">
+        <!-- ae ninjadosani para tu nao esquecer,aqui vai ser um bloquinhos, exibo o imc em verde se for bom, amarelo e vermelho
+        acho daora colocar o peso e altura junto, talvez -->
+        <legend class="cabeca">
+            <h1 class="aii">
+                Veja o relatorio 
+            </h1>
+        </legend>
+        <p class="luciano">
+            oie bem vindo ao relatorio, veja seu IMC  
+            com esse imc, declaro que voce é: obeso          
+        </p>
+        <div class="roda">
+           <p id="imczada">
+           </p>
+        </div>
+        <!-- pode pa entao -->
+    </div>
+    <script src="js/sani.js">
+        
+        document.getElementById("imczada").value = imc()
+    </script>
+</body>
+</html>
